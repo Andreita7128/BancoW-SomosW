@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco W</title>
+
+    <!--Css Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!--Css link-->
+    <link rel="stylesheet" href="./landing.css">
+
+    <!--Typography-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <w-nav-bar></w-nav-bar>
+        <bread-n-title actual="Banco W" link="./landing.html-" level="Inicio >"></bread-n-title>
+    </header>
+
+
+    <section id="title_home">
+        <h1>Inicio</h1>
+    </section>
+
+    <section id="carousel_cards">
+        <div id="carousel_cards_container">
+            <div id="carousel_cards_content">
+                <div class="card_mobile">
+                    <card-imagen recurso="/Images/mobile1.png" titulo="Invierte y gana más con tus ahorros"
+                    contenido="Con nuestro CDT, podrás hacer crecer tus ahorros de forma segura y rentable.
+                    ¡Empieza a ganar con nosotros ahora!" boton="Quiero saber más" link="./CDT/CDT.html"></card-imagen>
+                </div>
+                <!--
+                <div class="card_mobile">
+                    <card-imagen recurso="/Images/mobile2.png" titulo="Libranza para pensionados"
+                    contenido="Permite a pensionados y a maestros del sector público, adquirir créditos a
+                    través de nuestras alianzas." boton="Quiero saber más" link="./CDT/CDT.html"></card-imagen>
+                </div>
+                <div class="card_mobile">
+                    <card-imagen recurso="/Images/mobile3.png" titulo="Fortalecimiento para tu negocio"
+                    contenido="Tenemos un crédito enfocado a microempresarios y emprendedores como tú."
+                    boton="Quiero saber más" link="./Creditos/credito.html"></card-imagen>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <section id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container_carousel_text">
+                        <h1>Invierte y gana más con tus ahorros</h1>
+                        <p class="body_1">Con nuestro CDT, podrás hacer crecer tus ahorros de forma segura y rentable.
+                            ¡Empieza a
+                            ganar con
+                            nosotros ahora!</p>
+                            <a href="./Ahorro-Inversión/CDT/CDT.html">
+                                <button class="btn_large btn_large_active btn text_button_medium">Quiero saber más <i
+                                        class="bi bi-arrow-right"></i></button>
+                            </a>
+                    </div>
+                    <div class="container_carousel_img_bg container_carousel_img">
+                        <img src="./Images/1.png" class="container_carousel_img d-block" alt="...">
+                    </div>
+                </div>
+
+
+
+
+                <div class="carousel-item">
+                    <div class="container_carousel_text">
+                        <h1>Libranza para pensionados</h1>
+                        <p class="body_1">Permite a pensionados y a maestros del sector público, adquirir créditos a
+                            través de nuestras alianzas.</p>
+                        <button class="btn_large btn_large_active btn text_button_medium">Quiero saber más <i
+                                class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="container_carousel_img_bg container_carousel_img">
+                        <img src="./Images/1-2.png" class="container_carousel_img d-block" alt="...">
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <div class="container_carousel_text">
+                        <h1>Fortalecimiento para tu negocio</h1>
+                        <p class="body_1">Tenemos un crédito enfocado a microempresarios y emprendedores como tú.</p>
+                        <a href="./Creditos/credito.html">
+                            <button class="btn_large btn_large_active btn text_button_medium">Quiero saber más <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </a>
+                    </div>
+                    <div class="container_carousel_img_bg container_carousel_img">
+                        <img src="./Images/1-3.png" class="container_carousel_img d-block" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev" style="height: 20%; margin-top: 20%">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next" style="height: 20%; margin-top: 20%; align-self: center">
+                <span class="carousel-control-next-icon" aria-hidden="true"><i
+                        class="bi bi-chevron-right"></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> 
+
+    <section id="w_contigo_landing">
+        <h2> W Contigo </h2>
+        <div class="card_desk">
+            <w-card-desk photo="/Images/card.png" title="Historias de grandeza que marcan la diferencia"
+            text="Aprende de educación financiera y explora mas sobre la Comunidad W, mediante historias que dejan huella"
+            btn="Conoce más" link="./ComunidadW/W-Contigo/comunidadw.html"></w-card-desk>
+        </div>
+        <div class="card_mobile">
+            <card-imagen recurso="/Images/card.png" titulo="Historias de grandeza que marcan la diferencia"
+            contenido="Aprende de educación financiera y explora mas sobre la Comunidad W, mediante historias que dejan huella"
+            boton="Conoce más" link="./ComunidadW/W-Contigo/comunidadw.html"></card-imagen>
+        </div>
+    </section>
+
+    <section id="product_similar">
+        <h2>Conoce más sobre nuestros productos dinámicos</h2>
+        <article id="container_products">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="container_product_similar nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <i class="bi bi-coin"></i>
+                        <span class="body_1 name_label">Créditos</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="container_product_similar nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false"> <i class="bi bi-person-lock"></i>
+                        <span class="body_1 name_label">Seguros</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="container_product_similar nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"> <i class="bi bi-piggy-bank"></i>
+                        <span class="body_1 name_label">Ahorro</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="container_product_similar nav-link" id="pills-service-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-service" type="button" role="tab" aria-controls="pills-service"
+                        aria-selected="false"> <i class="bi bi-book"></i>
+                        <span class="body_1 name_label">Servicios</span></button>
+                </li>
+            </ul>
+        
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div id="container_product_select">
+                        <img class="product_selected_img" src="./Images/credito.png">
+                        <div class="product_selected_text">
+                            <h5>Créditos</h5>
+                            <h4>Consigue lo que deseas y necesitas</h4>
+                            <ul class="list_product">
+                                <li class="body_1">Créditos para negocios e independientes</li>
+                                <li class="body_1"> Yo construyo </li>
+                                <li class="body_1"> Gotahorro </li>
+                                <li class="body_1"> Libranza y vehiculos </li>
+                                <li class="body_1"> Inmueble productivo </li>
+                            </ul>
+                            <button class="btn btn_icon btn_medium btn_medium_active text_button_small">Saber más <i
+                                    class="bi bi-arrow-right right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div id="container_product_select">
+                        <img class="product_selected_img" src="./Images/seguros.png">
+                        <div class="product_selected_text">
+                            <h5>Seguros</h5>
+                            <h4>Nos adaptamos a tus necesidades </h4>
+                            <ul class="list_product">
+                                <li class="body_1">Soy Vida</li>
+                                <li class="body_1">Incendio y Terremoto</li>
+                                <li class="body_1">Deudores Microcrédito</li>
+                                <li class="body_1">Deudores Libranza</li>
+                                <li class="body_1">Soy Previsión Exequial</li>
+                            </ul>
+                            <button class="btn btn_icon btn_medium btn_medium_active text_button_small">Saber más <i
+                                    class="bi bi-arrow-right right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div id="container_product_select">
+                        <img class="product_selected_img" src="./Images/ahorros.png">
+                        <div class="product_selected_text">
+                            <h5>Ahorros</h5>
+                            <h4>Consigue lo que deseas y necesitas</h4>
+                            <ul class="list_product">
+                                <li class="body_1">Cuenta de Ahorro</li>
+                                <li class="body_1">CDT</li>
+                                <li class="body_1">Depósito de bajo monto</li>
+                            </ul>
+                            <button class="btn btn_icon btn_medium btn_medium_active text_button_small">Saber más <i
+                                    class="bi bi-arrow-right right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-service" role="tabpanel" aria-labelledby="pills-service-tab"
+                    tabindex="0">
+                    <div id="container_product_select">
+                        <img class="product_selected_img" src="./Images/servicios.png">
+                        <div class="product_selected_text">
+                            <h5>Servicios</h5>
+                            <h4>Consigue lo que deseas y necesitas</h4>
+                            <ul class="list_product">
+                                <li class="body_1">Convenio de recaudo</li>
+                                <li class="body_1">Remesas</li>
+                                <li class="body_1">Giros</li>
+                            </ul>
+                            <button class="btn btn_icon btn_medium btn_medium_active text_button_small">Saber más <i
+                                    class="bi bi-arrow-right right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </article>
+    </section>
+
+    <section id="about_profile">
+        <h2>Conoce los beneficios de tener Mi perfil W</h2>
+
+        <section id="about_profile_cards">
+                <img class="" src="./Images/3.png">
+
+            <div class="container_cards_all">
+                <div class="container_cards_container_1">
+                    <section class="card_landing_small">
+                        <section class="card_landing_title card_landing_title_orange">
+                            <h4> Tus productos en un espacio </h4>
+                        </section>
+                        <div class="card_landing_body">
+                            <p class="card_landing_text body1">Tu saldo, tus giros internacionales
+                                y
+                                muchos
+                                más</p>
+                        </div>
+                    </section>
+
+                    <section class="card_landing_small">
+                        <section class="card_landing_title card_landing_title_violet">
+                            <h4> Revisa tus saldos facilmente
+                            </h4>
+                        </section>
+                        <div class="card_landing_body">
+                            <p class="card_landing_text body1">Revisar tus cuentas al alcance de
+                                tu
+                                mano,
+                                en
+                                cualquier lugar</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="container_cards_container_2">
+                    <section class="card_landing_large">
+                        <section class="card_landing_title card_landing_title_blue">
+                            <h4> Tu agenda personalizada </h4>
+                        </section>
+                        <div class="card_landing_body">
+                            <p class="card_landing_text body1">Ten una agenda organizada que te
+                                permita llevar el orden de tus cuentas y pagos</p>
+                        </div>
+                    </section>
+                    <a href="./Registro/registro.html">
+                        <button class="btn_large btn btn_large_active text_button_medium">Quiero crear mi cuenta</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="tips">
+        <h3>¿Tienes dudas o sugerencias?</h3>
+        <p class="body_1">Consulta nuestros canales de atención</p>
+        <div class="container_buttons">
+            <btn-inside-btn title="Analista de crédito" btn="Solicítalo aquí"></btn-inside-btn>
+            <btn-inside-text title="Línea gratuita" text="01 8000 515656"></btn-inside-text>
+            <btn-inside-text title="Celular" text="323 5996557"></btn-inside-text>
+            <btn-inside-btn title="Oficinas físicas" btn="Consulta nuestras oficinas"></btn-inside-btn>
+        </div>
+    </section>
+
+
+    <footer>
+        <w-footer></w-footer>
+    </footer>
+
+
+    <script type="module" src="./public/Components/components.js"></script>
+
+    <!--Js Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+
+
+<link rel="stylesheet" href="./Salvavidas/salvavidas.css">
+
+    <script type="module" src="./Salvavidas/ComponenteSalvavidas.js"></script>
+
+    <salvavidas-comp></salvavidas-comp>
+
+</body>
+
+
+
+</html>

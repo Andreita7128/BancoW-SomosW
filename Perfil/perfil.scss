@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '../style.scss';
+
+body{
+    background-color: #35cbd3;
+}
+
+/********************************************* Tipografia importada del css de Andrea *****************************************/
+.navbar-dark .navbar-nav .nav-link {
+    color: $color_orange1 !important;
+}
+//BreadCrumb
+#bread_lv{
+    &1::after{
+        content: "Inicio";
+        color: #6321A6;
+    }
+    &2::after{
+        content: "Comunidad W";
+        color: #6321A6;
+    }
+    &3::after{
+        content: "W Contigo";
+        color: #6321A6;
+        font-weight: bold;
+    }
+}
+.breadcrumb-item span{
+    display: none;
+}
+
+#bread_title{
+    &::after{
+        content: "Perfil";
+        color: #F25C05;
+    }
+    span{
+        display: none;
+    }
+}
+
+
+.sidebar-container{
+    height: 80vh;
+}
+
+#navbarDropdown{
+    color: $color_orange1;
+}
+
+.profile-info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 40px;
+}
+
+#bread_lv{
+    &1::after{
+        content: "inicio";
+    }
+    &2::after{
+        content: "Mi perfil W";
+    }
+    &3::after{
+        content: "Tu perfil";
+    }
+}
+.breadcrumb-item span{
+    display: none;
+}
+
+#bread_title{
+    &::after{
+        content: "Tu perfil";
+    }
+    span{
+        display: none;
+    }
+}
+
+/* CONFIGURACIÓN DEL NAVBAR */
+.search_button{
+    width: 15% !important;
+    height: 44px !important;
+    background-color: $color_blue1 !important;
+    color: $color_orange1;
+    border-radius: 0% 48px 48px 0% !important;
+    margin: 0 !important;
+
+    &:hover{
+        background-color: white !important ;
+    color:  $color_blue1 !important;
+    }
+}
+
+.navup_buttons{
+    width: 100% !important;
+    height: 44px !important;
+    background-color: $color_blue1 !important;
+    color: $color_base_white;
+    padding-top: 7% !important;
+    &:hover{
+        background-color: rgb(242, 241, 241) !important ;
+        color:  $color_blue1 !important;
+    }
+}
+
+
+.form-control{
+    margin-right: 0 !important;    
+    border-radius: 48px 0px 0px 48px;
+}
+.placeholder-input-desktop{
+    width: 459px;
+    height: 44px;
+    border: none;
+    background-color: $fill_input;
+    margin-left: 10%;
+}
+
+.second_nav{
+    background-color: $color_base_white;
+    
+    &_link{
+        li{
+            a{
+                color: $color_orange1;
+                &:hover{
+                    color: $color_base_gray !important;
+                }
+                &:active{
+                    color: $color_base_gray !important;
+                }
+                &:focus{
+                    color: $color_base_gray !important;
+                }
+            }
+            
+.button_toggler{
+    width: 45.22px;
+    height: 45.22px;
+    background-color: $color_orange1;
+    border-radius: 62px !important;
+}
+            
+
+        }
+    }
+}
+
+.button_toggler{
+    width: 45.22px;
+    height: 45.22px;
+    background-color: $color_orange1;
+}
+
+
+.headline-profilePicture {
+    column-width: 20%;
+}
+
+
+.textHeaderLabel {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F2F4F5;
+}
+
+.headerLabel {
+    width: 50%;
+    height: 54px;
+    background-color: #FF8826;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.headline3-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+
+
+.user-product-container1{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informacionSection{
+    margin-left: 30px;
+}
+
+.user-product-body{
+    padding: 15px 25px 0;
+}
+
+.user-product-data1{
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.editButton {
+    padding: 10px 20px 10px 20px;
+    background-color: #00B1BB;
+    border-radius: 30px;
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff; 
+}
+
+.labelProfileImg {
+    width: 100px;
+    height: 100px;
+}
+
+.columnButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profilePicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.informationLabel {
+    margin-left: 40px;
+}
+
+
+/* ------------------------------------------------------------------- */
+/* SECOND INFO CONTAINER INFO */
+
+.container-personal-info-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.personal-info-container {
+
+    background-color: #ffffff;
+    padding: 25px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personal-info-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+
+}
+
+.default-tittle-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: $color_text_disable;
+}
+
+.response-tittle-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: $color_text;
+}
+
+.user-personal-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.info-section-alternative {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.info-section-alternative-inside{
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.first-column-personal-info{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 80px;
+}
+
+.second-column-personal-info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* CONFIGURACIÓN MEDIA QUERY */
+
+@media only screen and (max-width: 768px) {
+
+    .textHeaderLabel {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #F2F4F5;
+    }
+
+    .headerLabel {
+        width: 100%;
+        height: 44px;
+        background-color: $color_orange1;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* PRIMERA TARJETA */
+    .personal-info-container {
+        background-color: #ffffff;
+        padding: 25px;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .profilePicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .labelProfileImg {
+        width: 70px;
+        height: 70px;
+
+        margin-bottom: 20px;
+    }
+
+    .informationLabel {
+        margin-left: 0%;
+    }
+    
+    .headline5-desktop{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .user-product-data1 {
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .columnButton {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* SEGUNDA TARJETA */
+    .personal-info-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-personal-information{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-section-alternative-inside{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+}
+
+
+
